@@ -1,0 +1,53 @@
+body {
+  background-color: #fc9630;
+}
+
+.jumbotron {
+	background-color: #fc32c6;
+	color: white;
+	padding: 30px 0px;
+}
+
+#title {
+	font-size: 100px;
+	letter-spacing: 10px;
+}
+
+.heading {
+	color: #2def33;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+p {
+    padding: 5px;
+    margin: 5px;
+}
+
+.eat-icon, .trash-icon {
+	padding-bottom: -10px;
+	height: 30px;
+	width: 30px;
+}
+  
+.label {
+    font-weight: bold;
+}
+
+#newBurger {
+	padding: 0px 10px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+  
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
