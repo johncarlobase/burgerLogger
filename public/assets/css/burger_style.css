@@ -1,10 +1,10 @@
 body {
-  background-color: #fc9630;
+  background-color: #463730;
 }
 
 .jumbotron {
-	background-color: #fc32c6;
-	color: white;
+	background-color: #a33f03;
+	color: #8eb1c7;
 	padding: 30px 0px;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .heading {
-	color: #2def33;
+	color: #8eb1c7;
 	padding-top: 25px;
 	padding-bottom: 20px;
 }
