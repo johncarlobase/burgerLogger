@@ -1,5 +1,7 @@
 # Burger
-https://burger-nomnom.herokuapp.com/
+HEROKU: https://jcbburgers.herokuapp.com/
+
+
 
 A burger logger web application that uses MySQL, Node, Express, Handlebars, and a homemade ORM. It follows the MVC design pattern, uses Node and MySQL to query and route data in the app, and uses Handlebars to generate the HTML.
 
@@ -19,4 +21,5 @@ HOME PAGE Screen Shot
 ![image of Burger App](public/assets/img/burgerPAGE.png)
 
 
-
+### Notes
+I would like to thank Google and generous coders who helped me complete this project.  

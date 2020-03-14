@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: #aa976F;
   }
   
   .jumbotron {
@@ -14,7 +14,7 @@ body {
   }
   
   .heading {
-	  color: #8eb1c7;
+    color: #8eb1c7;
 	  padding-top: 25px;
 	  padding-bottom: 20px;
   }
@@ -39,7 +39,9 @@ body {
   }
   
   .form-group {
-	  margin-bottom: 5px;
+    margin-bottom: 5px;
+    color: #a33f03;
+    font-size: x-large;
   }
 	
   h1, h2 {
@@ -51,3 +53,7 @@ body {
 	  margin: 0 auto;
 	  width: 90%;
   }
+
+.japs {
+  color: yellow;
+}

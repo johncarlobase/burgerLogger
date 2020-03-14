@@ -1,21 +1,21 @@
 <div class="row">
 
     <div class="col-md-4 col-sm-12 col-xs-12">
-    	<h3 class="heading">WHAT'S AVAILABLE TO CHOWDOWN</h3>
+    	<h3 class="heading japs">WHAT'S AVAILABLE TO CHOWDOWN</h3>
         {{#each burgers}} 
         	{{#unless this.devoured}} 
 		        <form class="eat-form form-group" action="/{{this.id}}?_method=PUT" method="POST">
 		        	{{this.burger_name}}
 		            <input type="hidden" name="eat" value="true">
-		            <input type="image" class="eat-icon" src="assets/img/eat.png" alt="eat icon"/>
+		            <input type="image" class="eat-icon" src="assets/img/chow1.png" alt="eat icon"/>
 		        </form>
         	{{/unless}} 
         {{/each}}
     </div>
 
     <div class="col-md-4 col-sm-12 col-xs-12">
-    	<img src="/assets/img/burgerimg1.jpeg" class="img-responsive" alt="burger">
-        <h3 class="heading">REQUEST A BURGER</h3>
+    	<img src="/assets/img/burgerimg1.png" class="img-responsive" alt="burger">
+        <h3 class="heading japs">REQUEST A BURGER</h3>
         <form class="add-burger-form" action="/" method="POST">
             <div class="form-group">
                 <input type="text" id="newBurger" name="name" placeholder="Burger name">
@@ -25,13 +25,13 @@
     </div>
 
     <div class="col-md-4 col-sm-12 col-xs-12">
-    	<h3 class="heading">DEVOURED</h3>
+    	<h3 class="heading japs">DEVOURED</h3>
         <div class="list-group">
             {{#each burgers}} 
             	{{#if this.devoured}}
             		<form class="delete-form form-group" action="/{{this.id}}?_method=DELETE" method="POST">
             			{{this.burger_name}}
-            			<input type="image" class="trash-icon" src="assets/img/trash.png" alt="trash icon"/>
+            			<input type="image" class="trash-icon" src="assets/img/burgerimg3.png" alt="trash icon"/>
 					</form>
             	{{/if}} 
             {{/each}}
