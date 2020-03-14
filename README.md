@@ -13,7 +13,10 @@ A burger logger web application that uses MySQL, Node, Express, Handlebars, and 
 ### Technologies Used
 HTML, CSS, JavaScript, jQuery, MySQL, Node.js, Express.js, Handlebars, ORM, MVC
 
-![Burger Screen Shot](https://github.com/natplusultra/Burger/blob/master/public/assets/img/burger_shot.png) 
+### Description & Requirements
+
+HOME PAGE Screen Shot
+![image of Burger App](public/assets/img/burgerPAGE.png)
 
 
 
